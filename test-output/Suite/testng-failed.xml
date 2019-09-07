@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Nopackage(failed)">
+    <classes>
+      <class name="com.mckinsey.Newton.desktopWebTests.JourneyGuideTests">
+        <methods>
+          <include name="JourneyGuide" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.mckinsey.Newton.desktopWebTests.JourneyGuideTests -->
+      <class name="com.mckinsey.Newton.desktopWebTests.AboutYouTests">
+        <methods>
+          <include name="Userwantstogetadvisedonherorhisneeds" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.mckinsey.Newton.desktopWebTests.AboutYouTests -->
+      <class name="com.mckinsey.Newton.desktopWebTests.LandingTest">
+        <methods>
+          <include name="beforeSuit"/>
+          <include name="Verifylandingpagelinks"/>
+          <include name="ChecklinksandcontentsunderWhatandWhyLifeInsurancesectionarecorrect"/>
+          <include name="launchDriver"/>
+        </methods>
+      </class> <!-- com.mckinsey.Newton.desktopWebTests.LandingTest -->
+    </classes>
+  </test> <!-- Nopackage(failed) -->
+</suite> <!-- Failed suite [Suite] -->

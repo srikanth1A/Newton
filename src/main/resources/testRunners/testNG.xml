@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="1">
+    <test name="Nopackage">
+        <classes>
+             <class name="com.mckinsey.Newton.desktopWebTests.LandingTest"/> 
+           <!-- <class name="com.mckinsey.Newton.desktopWebTests.DependentSmokeDetailsTest"/>  --> 
+            <class name="com.mckinsey.Newton.desktopWebTests.JourneyGuideTests"/>  
+            
+             
+          <class name="com.mckinsey.Newton.desktopWebTests.AboutYouTests"/>              
+        </classes>
+    </test>
+</suite>
